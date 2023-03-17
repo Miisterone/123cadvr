@@ -1,0 +1,5 @@
+.plane {
+    background: url("/public/images/histoire.svg") center;
+    background-size: cover;
+    border-radius: 20px;
+}
