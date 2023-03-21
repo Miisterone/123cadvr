@@ -1,5 +1,3 @@
-import "./Solution.css";
-
 const Solution = () => {
     return (
         <div className="mt-20 m-2 lg:m-10 lg:mt-16">

@@ -3,6 +3,7 @@ import Navbar from "../../Shared/Navbar";
 import Footer from "../../Shared/Footer";
 import Goal from "./Components/Goal";
 import Team from "./Components/Team";
+import Map from "./Components/Map";
 
 const Company = () => {
     return (
@@ -10,6 +11,7 @@ const Company = () => {
             <Navbar/>
             <Goal/>
             <Team/>
+            <Map/>
             <Footer/>
         </div>
     );
