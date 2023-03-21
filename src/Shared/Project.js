@@ -7,14 +7,14 @@ const Project = (props) => {
                 <figure className="mt-10">
                     <blockquote className="text-center text-white underline text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
                         <p>
-                            Un projet ?
+                            {props.title}
                         </p>
                     </blockquote>
                 </figure>
                 <figure className="mt-10">
                     <blockquote className="text-center sm:mb-8  sm:text-3xl md:text-3xl text-white text-xl font-semibold leading-8 text-gray-900 ">
                         <p>
-                            Contactez-nous où décrivez-nous votre souhait.
+                            {props.description}
                         </p>
                     </blockquote>
                 </figure>

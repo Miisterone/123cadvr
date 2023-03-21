@@ -1,31 +1,43 @@
 export default function Team() {
     return (
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8 grid">
-                <dd className="mb-5 max-lg:ml-[28%] max-md:ml-[20px] text-start text-xl font-bold tracking-tight text-gray-900 sm:text-3xl">Notre équipe</dd>
-                <dl className="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-3">
-                    <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                        <img src="../images/mathieu.png" alt="image of mathieu"/>
-                        <dd className="text-start text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">Mathieu
-                            Flacelière
-                        </dd>
-                        <dt className="text-base text-start leading-7 text-gray-600">CEO</dt>
+        <div className="Team">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+                    <h2 className="text-2xl font-bold text-transform: uppercase text-gray-900">Notre équipe</h2>
+
+                    <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                        <div className="group relative">
+                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                                <img src="../images/mathieu.png" alt="image of mathieu" className="h-full w-full object-cover object-center"/>
+                            </div>
+                            <p className="mt-6 text-base font-semibold text-gray-900">Mathieu Flacelière</p>
+                            <h3 className="text-sm text-gray-500">
+                                <span className="absolute inset-0" />
+                                CEO
+                            </h3>
+                        </div>
+                        <div className="group relative">
+                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                                <img src="../images/anthony.png" alt="image of anthony" className="h-full w-full object-cover object-center"/>
+                            </div>
+                            <p className="mt-6 text-base font-semibold text-gray-900">Anthony Poineau</p>
+                            <h3 className="text-sm text-gray-500">
+                                <span className="absolute inset-0" />
+                                Animateur
+                            </h3>
+                        </div>
+                        <div className="group relative">
+                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                                <img src="../images/joris.png" alt="image of joris" className="h-full w-full object-cover object-center"/>
+                            </div>
+                            <p className="mt-6 text-base font-semibold text-gray-900">Joris Pader</p>
+                            <h3 className="text-sm text-gray-500">
+                                <span className="absolute inset-0" />
+                                Développeur VR & WEB
+                            </h3>
+                        </div>
                     </div>
-                    <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                        <img src="../images/anthony.png" alt="image of anthony"/>
-                        <dd className="text-start text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">Anthony
-                            Poineau
-                        </dd>
-                        <dt className="text-base text-start leading-7 text-gray-600">Animateur</dt>
-                    </div>
-                    <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                        <img src="../images/joris.png" alt="image of joris"/>
-                        <dd className="text-start text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">Joris
-                            Pader
-                        </dd>
-                        <dt className="text-base text-start leading-7 text-gray-600">Développeur VR & WEB</dt>
-                    </div>
-                </dl>
+                </div>
             </div>
         </div>
     )

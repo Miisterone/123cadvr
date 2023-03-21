@@ -4,6 +4,7 @@ import Footer from "../../Shared/Footer";
 import Goal from "./Components/Goal";
 import Team from "./Components/Team";
 import Map from "./Components/Map";
+import Form from "../../Shared/Form";
 
 const Company = () => {
     return (
@@ -12,6 +13,7 @@ const Company = () => {
             <Goal/>
             <Team/>
             <Map/>
+            <Form/>
             <Footer/>
         </div>
     );

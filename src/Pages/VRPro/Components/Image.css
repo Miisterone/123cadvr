@@ -1,0 +1,5 @@
+.image{
+    background: url("/public/images/image.svg") center;
+    background-size: cover;
+    border-radius: 20px;
+}
