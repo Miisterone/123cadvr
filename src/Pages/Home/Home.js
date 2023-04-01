@@ -3,10 +3,12 @@ import Histoire from "./Components/Histoire";
 import Solution from "./Components/Solution";
 import Projet from "../../Shared/Project";
 import Footer from "../../Shared/Footer";
+import {ScrollUp} from "../../Shared/ScrollUp";
 
 const Home = () => {
     return (
         <div className="Home">
+            <ScrollUp/>
             <Navbar/>
             <Histoire/>
             <Solution/>

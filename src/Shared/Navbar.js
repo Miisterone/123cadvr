@@ -1,6 +1,7 @@
 import {Fragment} from 'react'
 import {Disclosure, Menu, Transition} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon, ChevronDownIcon} from '@heroicons/react/24/outline'
+import {Link} from "react-router-dom";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -41,7 +42,8 @@ export default function Navbar() {
                                 <div className="hidden sm:ml-6 sm:block">
                                     <div className="flex space-x-4">
                                         <div className="flex space-x-4">
-                                            <a href="#" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium sm:text-base" aria-current="page">Accueil</a>
+                                            <Link to={"/"} className="text-gray-300 rounded-md px-3 py-2 text-sm font-medium sm:text-base" aria-current="page">Accueil</Link>
+                                            <Link to={"/company"} className="text-gray-300 rounded-md px-3 py-2 text-sm font-medium sm:text-base" aria-current="page">Histoire</Link>
                                             <Menu as="div" className="relative ml-3">
                                                 <div>
                                                     <Menu.Button className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
@@ -52,18 +54,18 @@ export default function Navbar() {
                                                     <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                                         <Menu.Item>
                                                             {({ active }) => (
-                                                                <a href="#" className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Vr ludique</a>
+                                                                <Link to={"/vr-ludique"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')} >Vr ludique</Link>
                                                             )}
                                                         </Menu.Item>
                                                         <Menu.Item>
                                                             {({ active }) => (
-                                                                <a href="#" className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Vr pro</a>
+                                                                <Link to={"/vr-professionnel"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Vr pro</Link>
                                                             )}
                                                         </Menu.Item>
                                                     </Menu.Items>
                                                 </Transition>
                                             </Menu>
-                                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium sm:text-base">Contact</a>
+                                            <Link to={"/contact"} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium sm:text-base">Contact</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -72,18 +74,11 @@ export default function Navbar() {
                     </div>
                     <Disclosure.Panel className="sm:hidden">
                         <div className="space-y-1 px-2 pt-2 pb-3">
-                            <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
-                               aria-current="page" data-headlessui-state="open">Accueil</a>
-                            <a href="#"
-                               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-                               data-headlessui-state="open">Vr ludique</a>
-                            <a
-                                href="#"
-                                class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-                                data-headlessui-state="open">Vr pro</a>
-                            <a href="#"
-                               class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-                               data-headlessui-state="open">Contact</a>
+                            <Link to={"/"} className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page" data-headlessui-state="open">Accueil</Link>
+                            <Link to={"/company"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Histoire</Link>
+                            <Link to={"/vr-ludique"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Vr ludique</Link>
+                            <Link to={"/vr-professionnel"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Vr professionnel</Link>
+                            <Link to={"/contact"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Contact</Link>
                         </div>
                     </Disclosure.Panel>
                 </>

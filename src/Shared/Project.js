@@ -1,4 +1,5 @@
 import "./Project.css";
+import {Link} from "react-router-dom";
 
 const Project = (props) => {
     return (
@@ -20,7 +21,7 @@ const Project = (props) => {
                 </figure>
                 <figure className="mt-10">
                     <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-                        <a href="#" className="w-fit h-fit bg-white text-[#09397D] rounded-md px-3 py-2 text-sm font-medium underline mt-8 text-center text-xl sm:text-xl">Contactez-nous</a>
+                        <Link to={"/contact"} className="w-fit h-fit bg-white text-[#09397D] rounded-md px-3 py-2 text-sm font-medium underline mt-8 text-center text-xl sm:text-xl">Contactez-nous</Link>
                     </blockquote>
                 </figure>
             </div>
