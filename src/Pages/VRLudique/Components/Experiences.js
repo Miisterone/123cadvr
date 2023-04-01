@@ -17,11 +17,15 @@ export function Experiences() {
                 <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-2 mt-10 mb-10">
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Film</dt>
-                        <img src="../Images/jw.png" alt="jurassic world image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=QYuMF0fP6vk" target="_blank">
+                            <img src="../Images/jw.png" alt="jurassic world image" className="rounded-lg mt-5 m-auto"/>
+                        </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Hand Tracking</dt>
-                        <img src="../Images/elixir.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=u4FXtABlnFY" target="_blank">
+                            <img src="../Images/elixir.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                        </a>
                     </div>
                 </dl>
             </div>
@@ -37,19 +41,27 @@ export function Experiences() {
                 <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-2 mt-10 mb-10">
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Sportive</dt>
-                        <img src="../images/beatsaber.png" alt="beat saber image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=vL39Sg2AqWg" target="_blank">
+                            <img src="../images/beatsaber.png" alt="beat saber image" className="rounded-lg mt-5 m-auto"/>
+                        </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Interactives</dt>
-                        <img src="../images/richie.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=faNsP7ExSt0" target="_blank">
+                            <img src="../images/richie.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                        </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Horrifique</dt>
-                        <img src="../images/dropdead.png" alt="drop dead image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=-FmO92a3r2o" target="_blank">
+                            <img src="../images/dropdead.png" alt="drop dead image" className="rounded-lg mt-5 m-auto"/>
+                        </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences artistiques</dt>
-                        <img src="../images/gravity.png" alt="gravity image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=0aoUlwZxzow" target="_blank">
+                            <img src="../images/gravity.png" alt="gravity image" className="rounded-lg mt-5 m-auto"/>
+                        </a>
                     </div>
                 </dl>
             </div>
