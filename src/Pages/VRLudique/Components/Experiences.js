@@ -19,13 +19,13 @@ export function Experiences() {
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Film</dt>
                         <a href="https://www.youtube.com/watch?v=QYuMF0fP6vk" target="_blank">
-                            <LazyLoadImage src="../Images/jw.png" alt="jurassic world image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../images/jw.png" alt="jurassic world image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Hand Tracking</dt>
                         <a href="https://www.youtube.com/watch?v=u4FXtABlnFY" target="_blank" rel="opener">
-                            <LazyLoadImage src="../Images/elixir.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../images/elixir.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                 </dl>

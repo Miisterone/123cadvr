@@ -15,7 +15,7 @@ export default function Form() {
     };
 
     return (
-        <div className="isolate bg-white py-24 px-6 sm:py-32 lg:px-8">
+        <div className="isolate bg-white py-24 px-6 sm:py-16 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 underline underline-offset-4  sm:text-4xl">Contactez-Nous</h2>
             </div>
