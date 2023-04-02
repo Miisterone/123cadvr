@@ -1,3 +1,4 @@
+import {LazyLoadImage} from "react-lazy-load-image-component";
 export function Experiences() {
     return (
         <div className="experiences">
@@ -18,13 +19,13 @@ export function Experiences() {
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Film</dt>
                         <a href="https://www.youtube.com/watch?v=QYuMF0fP6vk" target="_blank">
-                            <img src="../Images/jw.png" alt="jurassic world image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../Images/jw.png" alt="jurassic world image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Hand Tracking</dt>
-                        <a href="https://www.youtube.com/watch?v=u4FXtABlnFY" target="_blank">
-                            <img src="../Images/elixir.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                        <a href="https://www.youtube.com/watch?v=u4FXtABlnFY" target="_blank" rel="opener">
+                            <LazyLoadImage src="../Images/elixir.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                 </dl>
@@ -42,25 +43,25 @@ export function Experiences() {
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Sportive</dt>
                         <a href="https://www.youtube.com/watch?v=vL39Sg2AqWg" target="_blank">
-                            <img src="../images/beatsaber.png" alt="beat saber image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../images/beatsaber.png" alt="beat saber image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Interactives</dt>
                         <a href="https://www.youtube.com/watch?v=faNsP7ExSt0" target="_blank">
-                            <img src="../images/richie.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../images/richie.png" alt="elixir image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences Horrifique</dt>
                         <a href="https://www.youtube.com/watch?v=-FmO92a3r2o" target="_blank">
-                            <img src="../images/dropdead.png" alt="drop dead image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../images/dropdead.png" alt="drop dead image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col">
                         <dt className="text-xl font-semibold leading-8 text-gray-900 sm:text-xl">Expériences artistiques</dt>
                         <a href="https://www.youtube.com/watch?v=0aoUlwZxzow" target="_blank">
-                            <img src="../images/gravity.png" alt="gravity image" className="rounded-lg mt-5 m-auto"/>
+                            <LazyLoadImage src="../images/gravity.png" alt="gravity image" className="rounded-lg mt-5 m-auto"/>
                         </a>
                     </div>
                 </dl>

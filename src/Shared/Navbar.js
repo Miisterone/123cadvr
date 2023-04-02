@@ -54,14 +54,19 @@ export default function Navbar() {
                                                     <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                                         <Menu.Item>
                                                             {({ active }) => (
-                                                                <Link to={"/vr-ludique"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')} >Vr ludique</Link>
+                                                                <Link to={"/vr-professionnel"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Vr professionnel</Link>
                                                             )}
                                                         </Menu.Item>
                                                         <Menu.Item>
                                                             {({ active }) => (
-                                                                <Link to={"/vr-professionnel"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Vr pro</Link>
+                                                                <Link to={"/vr-ludique"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')} >Vr ludique</Link>
                                                             )}
                                                         </Menu.Item>
+                                                        {/*<Menu.Item>*/}
+                                                        {/*    {({ active }) => (*/}
+                                                        {/*        <Link to={"/catia"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Expertise Catia</Link>*/}
+                                                        {/*    )}*/}
+                                                        {/*</Menu.Item>*/}
                                                     </Menu.Items>
                                                 </Transition>
                                             </Menu>
@@ -76,8 +81,9 @@ export default function Navbar() {
                         <div className="space-y-1 px-2 pt-2 pb-3">
                             <Link to={"/"} className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page" data-headlessui-state="open">Accueil</Link>
                             <Link to={"/company"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Histoire</Link>
-                            <Link to={"/vr-ludique"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Vr ludique</Link>
                             <Link to={"/vr-professionnel"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Vr professionnel</Link>
+                            <Link to={"/vr-ludique"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Vr ludique</Link>
+                            {/*<Link to={"/catia"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Expertise Catia</Link>*/}
                             <Link to={"/contact"} className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" data-headlessui-state="open">Contact</Link>
                         </div>
                     </Disclosure.Panel>

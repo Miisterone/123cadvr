@@ -1,3 +1,4 @@
+import {LazyLoadImage} from "react-lazy-load-image-component";
 export default function Solutions() {
     return (
         <div className="Solutions">
@@ -10,7 +11,7 @@ export default function Solutions() {
                             <div className="group relative">
                                 <div
                                     className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                                    <img src="../images/airbus.png" alt="image of anthony" className="h-full w-full object-cover object-center"/>
+                                    <LazyLoadImage src="../images/airbus.png" alt="image of anthony" className="h-full w-full object-cover object-center"/>
                                 </div>
                                 <h3 className="mt-6 text-2xl font-bold text-gray-900 ">
                                     <span className="absolute inset-0"/>Airbus VR
@@ -23,7 +24,7 @@ export default function Solutions() {
                             <div className="group relative">
                                 <div
                                     className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                                    <img src="../images/senior.png" alt="image of anthony" className="h-full w-full object-cover object-center blur-xl"/>
+                                    <LazyLoadImage src="../images/senior.png" alt="image of anthony" className="h-full w-full object-cover object-center blur-xl"/>
                                 </div>
                                 <h3 className="mt-6 text-2xl font-bold text-gray-900 ">
                                     <span className="absolute inset-0"/>Senior VR

@@ -1,3 +1,4 @@
+import {LazyLoadImage} from "react-lazy-load-image-component";
 const datas = [
     {
         imageSrc: '/images/laroche.png',
@@ -18,7 +19,7 @@ const datas = [
 ]
 export function Clients(){
     return (
-        <div className="clients">
+        <div className="clients p-5">
             <section className="relative isolate overflow-hidden bg-white px-6 py-20 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
                     <blockquote
@@ -31,7 +32,7 @@ export function Clients(){
                 <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4 mt-10 mb-10">
                     {datas.map((data) => (
                         <div className="mx-auto flex max-w-xs flex-col">
-                            <img src={data.imageSrc} alt={data.imageAlt} className="rounded-lg mt-5 m-auto h-[200px] w-[200px]"/>
+                            <LazyLoadImage src={data.imageSrc} alt={data.imageAlt} className="rounded-lg mt-5 m-auto h-[200px] w-[200px]"/>
                         </div>
                     ))}
                 </dl>

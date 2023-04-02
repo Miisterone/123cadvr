@@ -1,9 +1,8 @@
-import "./Project.css";
 import {Link} from "react-router-dom";
 
 const Project = (props) => {
     return (
-        <section className="project mt-20 relative isolate overflow-hidden bg-white py-24 px-6 sm:py-32 lg:px-8">
+        <section className="bg-gradient-to-r from-[#3A78D1] to-[#09397D] mt-20 relative isolate overflow-hidden bg-white py-24 px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
                 <figure className="mt-10">
                     <blockquote className="text-center text-white underline text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">

@@ -1,3 +1,5 @@
+import {LazyLoadImage} from "react-lazy-load-image-component";
+
 const datas = [
     {
         name: 'Double jeux',
@@ -31,11 +33,10 @@ const datas = [
 
 export function Event() {
     return (
-        <div className="event">
-            <section className="relative isolate overflow-hidden bg-white px-6 py-20 lg:px-8">
+        <div className="event bg-gradient-to-r from-[#3A78D1] to-[#09397D] p-5">
+            <section className="relative isolate overflow-hidden px-6 py-20 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
-                    <blockquote
-                        className="text-center text-2xl font-extrabold leading-8 text-gray-900 sm:text-5xl sm:leading-9 underline">
+                    <blockquote className="text-center text-white text-2xl font-extrabold leading-8 sm:text-5xl sm:leading-9 underline">
                         <p>Événements</p>
                     </blockquote>
                 </div>
@@ -43,8 +44,8 @@ export function Event() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 mt-10 mb-10">
                     {datas.map((data) => (
-                        <div className="max-w-sm rounded border-2 overflow-hidden shadow-lg">
-                            <img className="w-full"  src={data.imageSrc} alt={data.imageAlt}/>
+                        <div className="max-w-sm rounded border-2 overflow-hidden shadow-lg bg-white">
+                            <LazyLoadImage className="w-full"  src={data.imageSrc} alt={data.imageAlt}/>
                             <div className="px-6 py-4">
                                 <div className="grid grid-cols-2">
                                     <p className="text-gray-700 text-xl text-semibold text-start">{data.date}</p>
