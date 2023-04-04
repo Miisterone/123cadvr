@@ -16,7 +16,7 @@ export function FirstContent() {
                     </figure>
                     <Link to={"/contact"} className="w-fit border-[#09397D] m-auto border-2 text-[#09397D] rounded-md px-3 py-2 text-sm font-medium underline mt-10 flex button">Contactez-nous</Link>
                 </div>
-                <LazyLoadImage src="../images/presentation.svg" alt="presentation image" className="rounded-lg mt-10 m-auto"/>
+                <LazyLoadImage src="../images/presentation.png" alt="presentation image" className="rounded-lg mt-10 m-auto"/>
             </section>
         </div>
     );
