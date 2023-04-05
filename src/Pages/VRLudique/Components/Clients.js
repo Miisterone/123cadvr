@@ -1,19 +1,19 @@
 import {LazyLoadImage} from "react-lazy-load-image-component";
 const datas = [
     {
-        imageSrc: '/images/laroche.png',
+        imageSrc: '/images/laroche.avif',
         imageAlt: 'laroche logo',
     },
     {
-        imageSrc: '/images/lamelee.png',
+        imageSrc: '/images/lamelee.avif',
         imageAlt: 'la mêlée numérique logo',
     },
     {
-        imageSrc: '/images/girandiere-logo.png',
+        imageSrc: '/images/girandiere-logo.avif',
         imageAlt: 'les girandières logo',
     },
     {
-        imageSrc: '/images/marie-louise.png',
+        imageSrc: '/images/marie-louise.avif',
         imageAlt: 'fondation marie louise logo',
     },
 ]
@@ -22,8 +22,7 @@ export function Clients(){
         <div className="clients p-5">
             <section className="relative isolate overflow-hidden bg-white px-6 py-20 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
-                    <blockquote
-                        className="text-center text-2xl font-extrabold leading-8 text-gray-900 sm:text-5xl sm:leading-9 underline">
+                    <blockquote className="text-center text-3xl font-extrabold leading-8 text-gray-900 sm:text-5xl sm:leading-9 underline">
                         <p>Clients & Partenaires</p>
                     </blockquote>
                 </div>

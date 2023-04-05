@@ -5,28 +5,28 @@ const datas = [
         name: 'Double jeux',
         date: '25.02.23 (mensuel)',
         lieu: "Toulouse",
-        imageSrc: '/images/doublejeux.png',
+        imageSrc: '/images/doublejeux.avif',
         imageAlt: 'image de double jeux',
     },
     {
         name: 'La mélée numérique',
         date: '28.09.22',
         lieu: "Toulouse",
-        imageSrc: '/images/melee.png',
+        imageSrc: '/images/melee.avif',
         imageAlt: 'image de la mélée numérique',
     },
     {
         name: 'Palais des sports',
         date: '24.04.22',
         lieu: "Toulouse",
-        imageSrc: '/images/palais.png',
+        imageSrc: '/images/palais.avif',
         imageAlt: 'image du palais des sports',
     },
     {
         name: 'Les girandières',
         date: '04.03.22',
         lieu: "Toulouse",
-        imageSrc: '/images/girandiere.png',
+        imageSrc: '/images/girandiere.avif',
         imageAlt: 'image des girandières',
     },
 ]
@@ -36,7 +36,7 @@ export function Event() {
         <div className="event bg-gradient-to-r from-[#3A78D1] to-[#09397D] p-5">
             <section className="relative isolate overflow-hidden px-6 py-20 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
-                    <blockquote className="text-center text-white text-2xl font-extrabold leading-8 sm:text-5xl sm:leading-9 underline">
+                    <blockquote className="text-center text-white text-4xl font-extrabold leading-8 sm:text-5xl sm:leading-9 underline">
                         <p>Événements</p>
                     </blockquote>
                 </div>
@@ -48,10 +48,10 @@ export function Event() {
                             <LazyLoadImage className="w-full"  src={data.imageSrc} alt={data.imageAlt}/>
                             <div className="px-6 py-4">
                                 <div className="grid grid-cols-2">
-                                    <p className="text-gray-700 text-xl text-semibold text-start">{data.date}</p>
-                                    <p className="text-gray-700 text-xl text-semibold text-right">{data.lieu}</p>
+                                    <p className="text-gray-700 text-xl font-normal text-start">{data.date}</p>
+                                    <p className="text-gray-700 text-xl font-normal text-right">{data.lieu}</p>
                                 </div>
-                                <p className="text-gray-700 text-xl text-semibold text-start mt-5">{data.name}</p>
+                                <p className="text-gray-700 text-xl font-normal text-start mt-5">{data.name}</p>
                             </div>
                         </div>
                     ))}
