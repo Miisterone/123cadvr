@@ -53,11 +53,11 @@ export default function Navbar() {
                                                                 <Link to={"/vr-ludique"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')} >Vr ludique</Link>
                                                             )}
                                                         </Menu.Item>
-                                                        {/*<Menu.Item>*/}
-                                                        {/*    {({ active }) => (*/}
-                                                        {/*        <Link to={"/catia"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Expertise Catia</Link>*/}
-                                                        {/*    )}*/}
-                                                        {/*</Menu.Item>*/}
+                                                        <Menu.Item>
+                                                            {({ active }) => (
+                                                                <Link to={"/catia"} className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 sm:text-base')}>Expertise Catia</Link>
+                                                            )}
+                                                        </Menu.Item>
                                                     </Menu.Items>
                                                 </Transition>
                                             </Menu>

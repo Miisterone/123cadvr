@@ -14,7 +14,7 @@ export default function Solutions() {
                                     <LazyLoadImage src="../images/airbus.avif" alt="image of anthony" className="h-full w-full object-cover object-center"/>
                                 </div>
                                 <h3 className="mt-6 text-2xl font-bold text-gray-900 ">
-                                    <span className="absolute inset-0">Airbus VR</span>
+                                    <span className="absolute inset-0"/>Airbus VR
                                 </h3>
                                 <div className="border-2 w-[100px] mb-1 border-[#104999] rounded-xl"/>
                                 <p className="text-xl text-gray-500 mb-6">Expérience en réalité virtuelle visant à découvrir les possibilités de la vr pour simplifié les revues techniques.</p>
