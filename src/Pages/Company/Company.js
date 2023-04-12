@@ -9,6 +9,7 @@ import {ScrollUp} from "../../Shared/ScrollUp";
 const Company = () => {
     return (
         <div className="company">
+            <title>Histoire</title>
             <ScrollUp/>
             <Navbar/>
             <Goal/>

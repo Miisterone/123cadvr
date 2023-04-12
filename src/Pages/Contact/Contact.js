@@ -6,6 +6,7 @@ import {ScrollUp} from "../../Shared/ScrollUp";
 const Contact = () => {
     return (
         <div className="contact">
+            <title>Contact</title>
             <ScrollUp/>
             <Navbar/>
             <Form/>

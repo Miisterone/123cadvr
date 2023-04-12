@@ -1,7 +1,7 @@
 {
   "short_name": "123cadvr",
   "name": "123cadvr",
-  "description": "123 CAD company website",
+  "description": "Spécialiste de la réalité virtuelle professionnelle pour la formation et les simulations industrielles. Découvrez nos solutions innovantes et contactez-nous pour une démo personnalisée. Immersion garantie !",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,7 +9,6 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",

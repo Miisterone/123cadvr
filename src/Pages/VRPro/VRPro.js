@@ -10,6 +10,7 @@ import {ScrollUp} from "../../Shared/ScrollUp";
 const VRPro = () => {
     return (
         <div className="vrpro">
+            <title>Réalite virtuelle Professionnel</title>
             <ScrollUp/>
             <Navbar/>
             <Image/>

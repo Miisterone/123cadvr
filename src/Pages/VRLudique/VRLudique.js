@@ -10,6 +10,7 @@ import Projet from "../../Shared/Project";
 const VRLudique = () => {
     return (
         <div className="vrludique">
+            <title>Réalite virtuelle Ludique</title>
             <ScrollUp/>
             <Navbar/>
             <FirstContent/>

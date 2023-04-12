@@ -11,13 +11,13 @@ function App() {
     return (
         <div className="App bg-[#FFFFFF]">
             <Routes>
-                <Route path={"*"} element={<NotFound/>}/>
                 <Route path={"/"} element={<Home/>}/>
                 <Route path={"/company"} element={<Company/>}/>
                 <Route path={"/vr-professionnel"} element={<VRPro/>}/>
                 <Route path={"/vr-ludique"} element={<VRLudique/>}/>
                 <Route path={"/catia"} element={<Catia/>}/>
                 <Route path={"/contact"} element={<Contact/>}/>
+                <Route path={"*"} element={<NotFound/>}/>
             </Routes>
         </div>
     );

@@ -8,6 +8,7 @@ import {ScrollUp} from "../../Shared/ScrollUp";
 const Home = () => {
     return (
         <div className="Home">
+            <title>Home</title>
             <ScrollUp/>
             <Navbar/>
             <Histoire/>

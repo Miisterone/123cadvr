@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+    <url>
+        <loc>https://www.123cadvr.com/</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.123cadvr.com/company</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.123cadvr.com/vr-professionnel</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.123cadvr.com/vr-ludique</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.123cadvr.com/catia</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.123cadvr.com/contact</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+</urlset>
