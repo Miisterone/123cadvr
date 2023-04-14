@@ -33,7 +33,7 @@ export default function Navbar() {
                                 <div className="hidden sm:ml-6 sm:block">
                                     <div className="flex space-x-4">
                                         <div className="flex space-x-4">
-                                            <Link to={"/"} className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium sm:text-base" aria-current="page"  style={{backgroundColor: window.location.pathname === "/" ? "rgb(209 213 219 / 30%)" : ""}}>Accueil</Link>
+                                            <Link to={"/"} className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium  sm:text-base" aria-current="page"  style={{backgroundColor: window.location.pathname === "/" ? "rgb(209 213 219 / 30%)" : ""}}>Accueil</Link>
                                             <Link to={"/company"} className="text-gray-300 hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium sm:text-base" aria-current="page" style={{backgroundColor: window.location.pathname === "/company" ? "rgb(209 213 219 / 30%)" : ""}}>Histoire</Link>
                                             <Menu as="div" className="relative ml-3">
                                                 <div>

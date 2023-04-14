@@ -14,7 +14,7 @@ export function Container() {
 
                     <div className="mt-10 grid mx-3 md:grid-cols-2 gap-5">
                         <div className="flex md:self-center justify-end mb-10">
-                            <LazyLoadImage src="../images/ingénierie.avif" alt="ingénierie image" className="rounded-lg"/>
+                            <LazyLoadImage src="../images/ingenierie.avif" alt="ingénierie image" className="rounded-lg"/>
                         </div>
                         <div className="md:self-center justify-end">
                             <h2 className="text-2xl font-bold mb-4">Introduction</h2>

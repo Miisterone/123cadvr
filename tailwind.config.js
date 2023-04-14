@@ -10,4 +10,9 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
   ],
+  fontFamily: {
+    sans: ['Inter', 'sans-serif'],
+    title: ['Oswald-Bold', 'sans-serif'],
+    body: ['Roboto-Regular', 'sans-serif'],
+  }
 }
