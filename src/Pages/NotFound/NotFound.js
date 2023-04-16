@@ -6,11 +6,11 @@ export default function NotFound() {
             <title>404</title>
             <main className="grid min-h-full place-items-center bg-white py-24 px-6 sm:py-32 lg:px-8">
                 <div className="text-center">
-                    <p className="text-3xl font-semibold text-red-600">404</p>
-                    <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Page introuvable</h1>
-                    <p className="mt-6 text-base leading-7 text-gray-600">La page que vous recherchez n'existe pas.</p>
+                    <p className="text-3xl body text-red-600">404</p>
+                    <h1 className="mt-4 text-3xl title tracking-tight text-gray-900 sm:text-5xl">Page introuvable</h1>
+                    <p className="mt-6 text-base body leading-7 text-gray-600">La page que vous recherchez n'existe pas.</p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
-                        <Link to={"/"} className="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Accueil</Link>
+                        <Link to={"/"} className="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm body text-white shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Accueil</Link>
                     </div>
                 </div>
             </main>

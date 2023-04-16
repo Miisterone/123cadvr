@@ -9,7 +9,7 @@ export function Container() {
                 <div className="relative py-3 sm:max-w-3xl sm:mx-auto">
 
                     <header>
-                        <h1 className="text-3xl font-bold text-center">La réalité virtuelle en ingénierie</h1>
+                        <h1 className="text-4xl title text-center">La réalité virtuelle en ingénierie</h1>
                     </header>
 
                     <div className="mt-10 grid mx-3 md:grid-cols-2 gap-5">
@@ -17,8 +17,8 @@ export function Container() {
                             <LazyLoadImage src="../images/ingenierie.avif" alt="ingénierie image" className="rounded-lg"/>
                         </div>
                         <div className="md:self-center justify-end">
-                            <h2 className="text-2xl font-bold mb-4">Introduction</h2>
-                            <p className="text-justify text-xl">
+                            <h2 className="text-2xl title mb-4">Introduction</h2>
+                            <p className="text-justify body text-xl">
                                 La réalité virtuelle (VR) est de plus en plus présente dans le monde de l'ingénierie.
                                 Elle offre des possibilités de conception, de simulation et de formation inégalées pour
                                 les ingénieurs de différentes disciplines.
@@ -28,8 +28,8 @@ export function Container() {
 
                     <div className="mt-20 mx-3 grid md:grid-cols-2 gap-5">
                         <div className="md:self-center justify-start md:text-right">
-                            <h2 className="text-2xl font-bold mb-4">Expérience</h2>
-                            <p className="text-justify text-xl">
+                            <h2 className="text-2xl title mb-4">Expérience</h2>
+                            <p className="text-justify body text-xl">
                                 Mathieu Flacelière, expert CATIA avec plus de 15 ans
                                 d'expérience. Mathieu connaît bien les enjeux de l'ingénierie et les avantages que la VR
                                 peut apporter.
@@ -42,13 +42,13 @@ export function Container() {
 
                     <div className="mt-20 p-8 flex items-center space-x-4">
                         <div className="w-auto">
-                            <h2 className="text-2xl font-bold mb-4">Avantages et cas d'utilisation de la réalité
+                            <h2 className="text-2xl title mb-4">Avantages et cas d'utilisation de la réalité
                                 virtuelle en ingénierie</h2>
                             <Transition
                                 show={true}
                                 enter="transition-opacity duration-700"
                                 enterFrom="opacity-0"
-                                enterTo="opacity-100" className="text-xl">
+                                enterTo="opacity-100" className="text-xl body">
                                 <p>La réalité virtuelle offre de nombreux avantages pour les ingénieurs, notamment :</p>
                                 <ul className="list-disc pl-6">
                                     <li>Permet de visualiser et d'interagir avec des modèles 3D complexes</li>

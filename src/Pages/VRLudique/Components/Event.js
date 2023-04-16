@@ -36,7 +36,7 @@ export function Event() {
         <div className="event bg-gradient-to-r from-[#3A78D1] to-[#09397D] p-5">
             <section className="relative isolate overflow-hidden px-6 py-20 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-4xl">
-                    <blockquote className="text-center text-white text-4xl font-extrabold leading-8 sm:text-5xl sm:leading-9 underline">
+                    <blockquote className="text-center text-white text-4xl title leading-8 sm:text-5xl sm:leading-9 underline">
                         <p>Événements</p>
                     </blockquote>
                 </div>
@@ -48,10 +48,10 @@ export function Event() {
                             <LazyLoadImage className="w-full"  src={data.imageSrc} alt={data.imageAlt}/>
                             <div className="px-6 py-4">
                                 <div className="grid grid-cols-2">
-                                    <p className="text-gray-700 text-xl font-normal text-start">{data.date}</p>
-                                    <p className="text-gray-700 text-xl font-normal text-right">{data.lieu}</p>
+                                    <p className="text-gray-700 text-xl body text-start">{data.date}</p>
+                                    <p className="text-gray-700 text-xl body text-right">{data.lieu}</p>
                                 </div>
-                                <p className="text-gray-700 text-xl font-normal text-start mt-5">{data.name}</p>
+                                <p className="text-gray-700 text-xl body text-start mt-5">{data.name}</p>
                             </div>
                         </div>
                     ))}
