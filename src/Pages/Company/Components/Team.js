@@ -4,36 +4,39 @@ export default function Team() {
         <div className="Team">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl py-16 sm:py-16 lg:max-w-none lg:py-16">
-                    <h2 className="text-2xl title text-transform: uppercase text-gray-900">Notre équipe</h2>
+                    <h2 className="text-3xl title text-transform: uppercase text-gray-900">Notre équipe</h2>
 
-                    <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                    <div className="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+
                         <div className="group relative">
-                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                            <div className="mt-20 relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                                <LazyLoadImage src="../images/anthony.avif" alt="image of anthony" className="h-full w-full object-cover object-top"/>
+                            </div>
+                            <p className="mt-6  text-2xl body font-semibold text-gray-900 lg:text-center">Anthony Poineau</p>
+                            <h3 className="text-xl body text-gray-500 lg:ml-[59px] xl:ml-[102px]">
+                                <span className="absolute inset-0" />Animateur
+                            </h3>
+                        </div>
+
+                        <div className="group relative">
+                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                                 <LazyLoadImage src="../images/mathieu.avif" alt="image of mathieu" className="h-full w-full object-cover object-top"/>
                             </div>
-                            <p className="mt-6 text-2xl body font-semibold text-gray-900">Mathieu Flacelière</p>
-                            <h3 className="text-xl body text-gray-500">
+                            <p className="mt-6 text-2xl body font-semibold text-gray-900 lg:text-center">Mathieu Flacelière</p>
+                            <h3 className="text-xl body text-gray-500 lg:ml-[52px] xl:ml-[94px]">
                                 <span className="absolute inset-0" />
                                 CEO
                             </h3>
                         </div>
+
                         <div className="group relative">
-                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                                <LazyLoadImage src="../images/anthony.avif" alt="image of anthony" className="h-full w-full object-cover object-top"/>
-                            </div>
-                            <p className="mt-6  text-2xl body font-semibold text-gray-900">Anthony Poineau</p>
-                            <h3 className="text-xl body text-gray-500">
-                                <span className="absolute inset-0" />Animateur
-                            </h3>
-                        </div>
-                        <div className="group relative">
-                            <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                            <div className="mt-20 relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                                 <LazyLoadImage src="../images/joris.avif" alt="image of joris" className="h-full w-full object-cover object-center"/>
                             </div>
-                            <p className="mt-6  text-2xl body font-semibold text-gray-900">Joris Pader</p>
-                            <h3 className="text-xl body text-gray-500">
+                            <p className="mt-6  text-2xl body font-semibold text-gray-900 lg:text-center">Joris Pader</p>
+                            <h3 className="text-xl body text-gray-500 lg:ml-[90px] xl:ml-[134px]">
                                 <span className="absolute inset-0" />
-                                Développeur VR & WEB
+                                Développeur VR/WEB
                             </h3>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ export default function Goal() {
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
                 <figure className="mt-10">
                     <figcaption className="mt-5">
-                        <blockquote className="text-justify text-xl body leading-8 text-black sm:text-2xl sm:leading-9">
+                        <blockquote className="text-justify text-xl body leading-8 text-black sm:text-xl sm:leading-9">
                             <p>
                                 La societe 123cad, spécialiste en réalité virtuelle et augmentée basé à Toulouse, transforme votre environnement professionnel et personnel en expériences immersives, adaptatives et résilientes. Notre mission : démocratiser la technologie XR (VR et AR) pour tous.
 

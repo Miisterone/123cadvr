@@ -11,6 +11,7 @@ const VRPro = () => {
     return (
         <div className="vrpro">
             <title>Réalite virtuelle Professionnel</title>
+            <ScrollUp/>
             <Navbar/>
             <Image/>
             <Text/>

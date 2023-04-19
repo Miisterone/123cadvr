@@ -4,12 +4,12 @@ import {LazyLoadImage} from "react-lazy-load-image-component";
 
 export function Container() {
     return (
-        <div className="profil">
-            <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12 font-roboto">
+        <div className="catia">
+            <div className="min-h-screen flex flex-col justify-center">
                 <div className="relative py-3 sm:max-w-3xl sm:mx-auto">
 
                     <header>
-                        <h1 className="text-4xl title text-center">La réalité virtuelle en ingénierie</h1>
+                        <h1 className="text-4xl title text-center mt-20 mb-20">La réalité virtuelle en ingénierie</h1>
                     </header>
 
                     <div className="mt-10 grid mx-3 md:grid-cols-2 gap-5">

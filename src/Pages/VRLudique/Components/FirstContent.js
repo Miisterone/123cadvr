@@ -14,7 +14,7 @@ export function FirstContent() {
                             <p>Besoin d’une activité original ? La réalité virtuelle est le bon choix.</p>
                         </blockquote>
                     </figure>
-                    <Link to={"/contact"} className="w-fit border-[#09397D] m-auto border-2 text-[#09397D] rounded-md px-3 py-2 text-sm body underline mt-10 flex button">Contactez-nous</Link>
+                    <Link to={"/contact"} className="w-fit border-[#09397D] m-auto border-2 text-[#09397D] rounded-md px-3 py-2 text-lg body underline mt-10 flex button">Contactez-nous</Link>
                 </div>
                 <LazyLoadImage src="../images/presentation.avif" alt="presentation image" className="rounded-lg mt-10 m-auto"/>
             </section>

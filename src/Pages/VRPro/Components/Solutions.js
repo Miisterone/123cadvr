@@ -19,9 +19,9 @@ const datas = [
 export default function Solutions() {
     return (
         <div className="Solutions">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-20">
                 <div className="mx-auto max-w-2xl py-8 sm:py-12 lg:max-w-none lg:py-10">
-                    <h1 className="text-5xl title text-gray-900">Solutions</h1>
+                    <h1 className="text-5xl title text-gray-900 mb-20">Solutions</h1>
                     <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
                         {datas.map((data) => (
                             <div key={data.name} className="group relative">
