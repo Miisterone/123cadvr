@@ -9,7 +9,7 @@ export default function Map() {
                             className="w-full h-72 lg:h-96" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
                     </div>
                     <div className="mx-auto flex max-w-xs flex-col justify-center m-10 body">
-                        <div className="text-start text-lg tracking-tight text-white mb-10 sm:text-lg">NOTRE BUREAU</div>
+                        <div className="text-start text-xl tracking-tight text-white mb-10 sm:text-lg">NOTRE BUREAU</div>
                         <div className="text-start text-3xl font-bold tracking-tight text-white sm:text-3xl">123 CAD</div>
                         <div className="text-start text-xl tracking-tight text-white sm:text-xl ">34 Chem. des Carrières</div>
                         <div className="text-start text-xl tracking-tight text-white sm:text-xl">31140 Aucamville</div>

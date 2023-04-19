@@ -7,71 +7,6 @@ body {
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("Fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Roboto bold";
-    font-weight: bold;
-    src: url("Fonts/Roboto-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 300;
-    src: url("Fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 500;
-    src: url("Fonts/Roboto-Medium.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 700;
-    src: url("Fonts/Roboto-Bold.ttf");
-}
-
-
-@font-face {
-    font-family: "Roboto";
-    font-style: italic;
-    src: url("Fonts/Roboto-Italic.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: bold;
-    font-style: italic;
-    src: url("Fonts/Roboto-BoldItalic.ttf");
-}
-
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 300;
-    font-style: italic;
-    src: url("Fonts/Roboto-LightItalic.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-style: italic;
-    src: url("Fonts/Roboto-MediumItalic.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-style: italic;
-    src: url("Fonts/Roboto-BoldItalic.ttf");
-}
-
-@font-face {
     font-family: "Oswald";
     src: url("Fonts/Oswald-Bold.ttf");
 }
@@ -87,5 +22,66 @@ body {
     font-weight: 700;
     src: url("Fonts/Oswald-Bold.ttf");
 }
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    src: url("Fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src: url("Fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 900;
+    src: url("Fonts/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 300;
+    src: url("Fonts/Inter-Light.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 200;
+    src: url("Fonts/Inter-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 100;
+    src: url("Fonts/Inter-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    src: url("Fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    src: url("Fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 800;
+    src: url("Fonts/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 900;
+    src: url("Fonts/Inter-Black.ttf");
+}
+
 
 

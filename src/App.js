@@ -6,7 +6,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 import Contact from "./Pages/Contact/Contact";
 import VRLudique from "./Pages/VRLudique/VRLudique";
 import {Catia} from "./Pages/Catia/Catia";
-import {VirtualTour} from "./Pages/VirtualTour/VirtualTour";
+import {Video} from "./Pages/VirtualTour/Video360";
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
                 <Route path={"/vr-professionnel"} element={<VRPro/>}/>
                 <Route path={"/vr-ludique"} element={<VRLudique/>}/>
                 <Route path={"/catia"} element={<Catia/>}/>
-                <Route path={"/video360"} element={<VirtualTour/>}/>
+                <Route path={"/video360"} element={<Video/>}/>
                 <Route path={"/contact"} element={<Contact/>}/>
                 <Route path={"*"} element={<NotFound/>}/>
             </Routes>

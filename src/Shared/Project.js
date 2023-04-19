@@ -20,7 +20,7 @@ const Project = (props) => {
                 </figure>
                 <figure className="mt-10">
                     <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9" style={{textAlign: "-webkit-center"}}>
-                        <Link to={"/contact"} className="w-fit border-white border-2 text-white rounded-md px-3 py-2 text-sm font-medium mt-4 flex button md:text-lg transition duration-500 hover:opacity-100 hover:ease-in-out hover:scale-105 hover:underline hover:bg-[#0155a0e6] hover:text-white">Découvrir</Link>
+                        <Link to={"/contact"} className="w-fit border-white border-2 text-white rounded-md px-3 py-2 text-sm font-medium mt-4 flex button md:text-lg transition duration-500 hover:opacity-100 hover:ease-in-out hover:scale-105 hover:underline hover:bg-[#0155a0e6] hover:text-white">Contactez-nous</Link>
                     </blockquote>
                 </figure>
             </div>

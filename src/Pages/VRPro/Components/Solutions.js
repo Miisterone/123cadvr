@@ -25,10 +25,8 @@ export default function Solutions() {
                     <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
                         {datas.map((data) => (
                             <div key={data.name} className="group relative">
-                                <div
-                                    className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:h-64">
-                                    <LazyLoadImage src={data.imageSrc} alt={data.imageAlt}
-                                                   className="h-full w-full object-cover object-center"/>
+                                <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white transition duration-500 group-hover:opacity-75 group-hover:ease-in-out group-hover:scale-95 sm:h-64 ">
+                                    <LazyLoadImage src={data.imageSrc} alt={data.imageAlt} className="h-full w-full object-cover object-center"/>
                                 </div>
                                 <a href={data.href}>
                                     <h3 className="mt-6 mb-2 text-2xl title text-gray-900 ">
